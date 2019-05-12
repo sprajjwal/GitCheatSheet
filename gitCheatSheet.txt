@@ -20,6 +20,9 @@ git remote add origin <URL>
 4. git checkout <branch_name>  #switch to a different branch
 5. git rm ${file}  #removes a perticular file.
 6. git checkout -b <new_branch_name> #creates a new branch
+7. git log #shows all the versions with their sha key
+8. git revert ${sha_key}  #reverts a commit/ deletes the version and goes back to the last one
+9. git revert HEAD #reverts the lateest commit.
 
 
 #steps to create a new git repository
