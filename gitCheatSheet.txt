@@ -35,5 +35,3 @@ git remote add origin <URL>
 
 1. git clone <URL>
 
-testing changes
-
