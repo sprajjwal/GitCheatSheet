@@ -1,0 +1,37 @@
+#adding a current directory as a new repository
+git init
+
+#add all the files in the directory to the repository
+git add .
+
+#adding a file to the git repository
+git add ${filename}
+
+#saving changes to git
+git commit -m "some message to inform about the saved version"
+
+#adding this local saved git repository to github
+git remote add origin <URL>
+
+#GITHUB COMMANDS
+1. git branch  #shows all of the branches agailable
+2. git push origin <branch_name> #pushes your current commit to github
+3. git pull origin <branch_name> #pulls the latest version from github
+4. git checkout <branch_name>  #switch to a different branch
+5. git rm ${file}  #removes a perticular file.
+6. git checkout -b <new_branch_name> #creates a new branch
+
+
+#steps to create a new git repository
+
+1. cd into the folder
+2. git init
+3. git add .
+4. git commit -m "git setup"
+5. git remote add origin <URL>
+6. git push origin master
+
+#steps to clone in a new git repository
+
+1. git clone <URL>
+
