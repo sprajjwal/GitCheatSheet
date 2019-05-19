@@ -34,6 +34,13 @@ git remote add origin <URL>
 5. git remote add origin <URL>
 6. git push origin master
 
+# set default username and password
+1. vim ~/.netrc
+2. add this: 
+	machine github.com
+		login <username>
+		password <password>
+
 #steps to clone in a new git repository
 
 1. git clone <URL>
