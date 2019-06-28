@@ -4,7 +4,7 @@
 
 ### 2.) Setting default username and password
 
-`1. vim ~/.netrc`
+`1. vim ~/.netrc` <br/>
 `2. add this:`
 >  `machine github.com`
 >> ` login <username>`
